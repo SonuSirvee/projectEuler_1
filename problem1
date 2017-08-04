@@ -1,0 +1,12 @@
+(ns clojure.core
+    (:gen-class))
+(defn sum [x]
+(defn fact? [x]
+(or (zero? (mod x 3)) (zero? (mod x 5))))
+
+(def sl (filter fact? (range 1 (+ x 1))))
+(println (reduce + sl))
+
+
+    
+    
